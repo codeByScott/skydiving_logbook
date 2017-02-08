@@ -3,12 +3,19 @@
     logs: @props.data
   getDefaultProps: ->
     logs: []
+
+  addLog: (log) ->
+    logs = @state.logs.slice()
+    logs.push log
+    @setState logs: logs
+
   render: ->
     React.DOM.div
       className: 'logs'
       React.DOM.h2
         className: 'title'
         'Skydiving Log'
+      React.createElement LogForm, handleNewLog: @addLog
       React.DOM.table
         className: 'table table-bordered'
         React.DOM.thead null,
