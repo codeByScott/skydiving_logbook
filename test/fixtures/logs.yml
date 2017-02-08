@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  jump_number: 1
+  date: 2017-02-08
+  location: MyString
+  aircraft: MyString
+  equipment: MyString
+  altitude: 1.5
+  delay_time: 1.5
+  total_time: 1.5
+  total_time: 1.5
+  maneuver: MyString
+  description: MyText
+  signature: MyString
+
+two:
+  jump_number: 1
+  date: 2017-02-08
+  location: MyString
+  aircraft: MyString
+  equipment: MyString
+  altitude: 1.5
+  delay_time: 1.5
+  total_time: 1.5
+  total_time: 1.5
+  maneuver: MyString
+  description: MyText
+  signature: MyString
